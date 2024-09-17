@@ -1,0 +1,25 @@
+ /* tag selector */
+ body {
+    color: grey;
+    width: 80%;
+    margin: auto;
+     }
+     img.food-insecurity{
+         width:100%;
+         height: 520px;
+     }
+ /* id selector */
+ #full_name {
+        color: pink;
+        text-decoration: none
+    }
+ /* class selector */
+ .container{
+        background-color:white;
+ }
+ div.feed div >h4{
+     color: greenyellow;
+ }
+ a.hover{
+     
+ }

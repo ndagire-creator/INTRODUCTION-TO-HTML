@@ -4,38 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FORMS</title>
+    <title>RESTUARANT REVIEWS</title>
+    <link rel="stylesheet" href="css/index.css" />
+   <Style>
+     
+    </Style>
 </head>
-<style>
-    h1 {
-        color: blueviolet;
-        text-align: center;
-    }
-    .orderedlist{background-color: crimson;}
-</style>
 <body>
-    <h1>CODING CLASSES ONLINE</h1>
-    <a href="./about.html">About Us Page</a>
-    <p>Welcome to code queen application</p>
-    <ol class="orderedlist">
-        <li>sugar</li>
-        <li>posho</li>
-        <li>books</li>
-        <li>pens</li>
-    </ol>
+    <!-- header section -->
 <nav>
-    <header>
         <div class="container">
-            <img scr="./queens/food-insecurity.jpg" alt="boy with a plate" />
+            <img class="food-insecurity" src="./food-insecurity.JPG" alt="boy with a plate" />
             <h4>Please leave your feedback below.</h4>
             <form id="review-form" method="post" actions="./recap.html">
                 <div input="input-element">
                     <label for="full_name">Full_Name</label>
-                    <input type="text" placeholder="sophie" id="full_name" ame="full_name" />
+                    <input type="text" placeholder="sophie" id="full_name" name="full_name" />
                 </div>
                 <div input="input-element">
                     <label for="review">review</label>
-                   <textarea name="review" cols="25" rows="5">
+                   <textarea id="review" name="review" cols="25" rows="5">
                    </textarea>
                 </div>
                 <input type="submit" value="submit" />
